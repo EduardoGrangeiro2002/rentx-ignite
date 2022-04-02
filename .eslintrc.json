@@ -64,6 +64,9 @@
 "prettier/prettier": "error"
 },
 "settings": {
+  "import/parsers": {
+    "@babel/eslint-parser": [".js"]
+  },
   "import/resolver": {
       "typescript": {}
   }
