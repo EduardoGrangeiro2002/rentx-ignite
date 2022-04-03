@@ -11,7 +11,7 @@ module.exports = {
           "@modules": "./src/modules",
           "@configs": "./src/configs",
           "@shared": "./src/shared",
-          "@errors": "./src/errors",
+          "@error": "./src/error",
           "@utils": "./src/utils",
         },
       },
