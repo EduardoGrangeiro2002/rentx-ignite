@@ -51,7 +51,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEYS }} 
           script: |
-            cd ~/Projects/rentx-ignite
+            cd Projects/rentx-ignite
             yarn
             ./node_modules/.bin/typeorm migration:run
             pm2 restart rentx
