@@ -13,8 +13,8 @@ const router = Router();
 router.use("/categories", categoriesRoutes);
 router.use("/specifications", specificationRouter);
 router.use("/users", UserRouter);
-router.use("/cars", carRoutes)
-router.use("/rentals", rentalRoutes)
+router.use("/cars", carRoutes);
+router.use("/rentals", rentalRoutes);
 router.use(authenticateRoutes);
 router.use("/password", passwordRoutes);
 
